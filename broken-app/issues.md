@@ -1,0 +1,2 @@
+# Broken App Issues
+The issue with the post request was the use of async in the wrong place. The use of async inside a map function caused problems while awaiting for the promises to be fulfilled. I have written code for error handling too.
